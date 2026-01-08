@@ -17,7 +17,7 @@ class LeNet5(nn.Module):
             nn.AvgPool2d(2, 2)                  # → (B, 16, 5, 5)
         )
 
-        # Classifier
+        # Classifier 
         self.classifier = nn.Sequential(
             nn.Linear(16 * 5 * 5, 120),
             nn.Tanh(),
