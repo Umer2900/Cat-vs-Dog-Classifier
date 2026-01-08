@@ -6,7 +6,7 @@ def evaluate(model, dataloader, criterion, device):
 
     running_loss = 0.0
     running_correct = 0
-    total = 0
+    total = 0 
 
     with torch.no_grad():
         for images, labels in dataloader:
