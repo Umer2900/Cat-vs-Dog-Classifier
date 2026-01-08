@@ -8,7 +8,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load checkpoint
 checkpoint = torch.load("models/saved/best_model.pth", map_location=device)
-MODEL_NAME = checkpoint["model_name"]
+MODEL_NAME = checkpoint["model_name"] 
 
 # Build and load model
 model = build_model(MODEL_NAME, num_classes=2, pretrained=False)
