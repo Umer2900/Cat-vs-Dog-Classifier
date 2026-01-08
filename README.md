@@ -15,7 +15,7 @@ The project compares **custom-built and pre-trained models**, selects the **best
 
 ## 🎥 Demo
 
-![App Demo](assets/demo.gif)
+![App Demo](assets/Demo.gif)
 
 ---
 
