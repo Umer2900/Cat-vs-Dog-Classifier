@@ -21,7 +21,7 @@ uploaded_file = st.file_uploader(
 
 # Big full-width primary button
 if st.button("🔍 Classify Image", use_container_width=True, type="primary"):
-    if not uploaded_file:
+    if not uploaded_file: 
         st.error("Please upload an image first!")
     else:
         # Load image
