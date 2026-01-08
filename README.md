@@ -1,17 +1,17 @@
 # 🐱🐶 Cat vs Dog Classification System  
 
 A complete **end-to-end Modular Deep Learning project** that performs **binary image classification (Cat vs Dog)** using **multiple CNN architectures**.  
-The project compares **custom-built and pre-trained models**, selects the **best-performing model**, and deploys it using a **Streamlit web application** on **Streamlit Cloud**.
+The project compares **custom-built and pre-trained models**, selects the **best-performing model**, and based on classification accuracy, and provides an interactive **Streamlit-based user interface** for model inference.
 
 🏆 **Best Model:** ResNet-18  
 📈 **Test Accuracy:** 99%  
 🧠 **Models Used:** LeNet-5 (from scratch), AlexNet, ResNet-18  
 
----
+<!-- ---
 
 - 🌐 **Live Demo:** [Cat vs Dog Classification System](https://student-performance-indicator-project.onrender.com)
 
----
+--- -->
 
 ## 🎥 Demo
 
@@ -37,7 +37,6 @@ Most beginner-level Cat vs Dog projects:
 - Use **only one pre-trained model**
 - Treat CNNs as a **black box**
 - Lack **modular code structure**
-- Are **not deployment-ready**
 
 This project was built to go beyond that.
 
@@ -45,7 +44,6 @@ This project was built to go beyond that.
 - Understand **CNN architectures deeply** by implementing **LeNet-5 from scratch**
 - Compare **multiple CNN models** fairly under the same training conditions
 - Apply **software engineering best practices** (modularity, reusability)
-- Deploy a **production-style Deep Learning application**
 
 📌 **Focus:** Learning-oriented, scalable, and resume-ready Deep Learning project.
 
@@ -74,7 +72,6 @@ This project was built to go beyond that.
 ### 🌐 Streamlit Web Application
 - Interactive UI for image upload
 - Real-time prediction (Cat or Dog)
-- Deployed on **Streamlit Cloud**
 - Lightweight and user-friendly interface
 
 ---
@@ -187,8 +184,8 @@ To run this project locally, ensure you have the following installed:
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Umer2900/Student-Performance-Indicator-Project
-   cd Student-Performance-Project
+   git clone https://github.com/Umer2900/Cat-vs-Dog-Classifier
+   cd Cat-vs-Dog-Classifier
    ```
 
 2. **Install Dependencies**:
